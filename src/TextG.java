@@ -7,7 +7,7 @@ public class TextG {
 		syso  wmjjasnjasjz
 			
 			amit 
-			shhsjjsk
+			kumar singh
 	}
 
 }
