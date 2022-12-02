@@ -6,7 +6,8 @@ public class TextG {
 		System.out.println("he is a god boy");
 		syso  wmjjasnjasjz
 			
-			amit
+			amit 
+			shhsjjsk
 	}
 
 }
