@@ -5,6 +5,8 @@ public class TextG {
 		// TODO Auto-generated method stub
 		System.out.println("he is a god boy");
 		syso  wmjjasnjasjz
+			
+			amit
 	}
 
 }
