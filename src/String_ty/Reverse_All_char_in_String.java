@@ -1,4 +1,4 @@
-package String_ty;
+ package String_ty;
 
 public class Reverse_All_char_in_String{
 
@@ -9,13 +9,14 @@ public class Reverse_All_char_in_String{
 
 	String s="Welcome to to Bengaluru Bengaluru";
 	String st = s.toLowerCase();
-	String[] str=st.split("");
-	String rev="";
-	for(int i=str.length-1;i>=0;i--)
+	//String[] str=st.split("");
+	
+	//String rev="";
+	for(int i=st.length()-1;i>=0;i--)
 	{
-		rev=rev+str[i]+"";
+		System.out.print(st.charAt(i));
 	}
 
-	System.out.println(rev);
+	System.out.print(" ");
 }
 }

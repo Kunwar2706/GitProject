@@ -10,7 +10,16 @@ LinkedHashSet<Character>set=new LinkedHashSet<Character>();
 for(int i=0;i<s.length();i++)
 {
 	set.add(s.charAt(i));
-	System.out.println(s.charAt(i)+" is in "+(i+1)+" postion");
+}
+for(Character cha:set)//tesyanr
+{
+	for(int i=0;i<s.length();i++)
+	if(cha==s.charAt(i))
+	{
+		System.out.println(cha+" is in "+(i+1)+" postion");
+		break;
+
+	}
 }
 
 	}

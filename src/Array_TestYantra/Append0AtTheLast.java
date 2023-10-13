@@ -3,7 +3,7 @@ package Array_TestYantra;
 public class Append0AtTheLast {
 
 	public static void main(String[] args) {
-		int[] a= {1,0,0,1,0};
+		int[] a= {1,1,0,1};
 		int[] b=new int[a.length];
 		int m=0;
 		int n=a.length-1;

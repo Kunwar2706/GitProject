@@ -1,9 +1,9 @@
 package String_ty;
 
-public class Segregate_alphabets_No_and_special_char {
+public class Demo2 {
 
 	public static void main(String[] args) {
-			String s="a3f2$v!5^";//o/p =afv 325 $!^
+			String s="3a&1bc#*2";
 			String alpha="";
 			String num=" ";
 			String spc=" ";
@@ -22,11 +22,12 @@ public class Segregate_alphabets_No_and_special_char {
 				{
 					spc=spc+s.charAt(i);
 				}
-			}
+		
+		
 			
-			
-			System.out.println(alpha+ " "+num+" "+spc);	
+			System.out.print(alpha+ " "+num+" "+spc);	
 
 	}
 
+	}
 }

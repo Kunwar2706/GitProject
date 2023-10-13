@@ -3,7 +3,7 @@
 public class AddtionOf2Arrays {
 
 	public static void main(String[] args) {
-		int[]a= {4,2,3,1,3};
+		int[]a= {4,2,5,1,3};
 		int[] b= {2,4,1,7};
 		int length=a.length;//5
 		if(a.length<b.length)//5<4t
@@ -20,17 +20,17 @@ public class AddtionOf2Arrays {
 		{
 			try
 			{
-				System.out.println(a[i]+b[i]+" ");//4+2=6,2+4=6,
+				System.out.print(a[i]+b[i]+" ");//4+2=6,2+4=6,
 			}
 			catch(Exception e) 
 			{
 				if(a.length<b.length)	
 				{
-					System.out.println(b[i]);
+					System.out.print(b[i]);
 				}
 				else
 				{
-					System.out.println(a[i]);
+					System.out.print(a[i]);
 				}
 			}
 		}

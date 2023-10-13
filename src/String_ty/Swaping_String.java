@@ -1,11 +1,11 @@
-package String_ty;
+   package String_ty;
 
 public class Swaping_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s="Welcome to Bengluru City";
-String[] st = s.split(" ");
+         String[] st = s.split(" ");
 		
 		String temp=st[0];
 		st[0]=st[st.length-1];

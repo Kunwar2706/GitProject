@@ -6,8 +6,8 @@ public class Count_duplicate_char_In_String {
 
 	public static void main(String[] args) {
 String s="TestYantra";
-String st = s.toLowerCase();
-LinkedHashSet<Character>set =new LinkedHashSet<Character>();
+String st = s.toLowerCase();//testyantra
+LinkedHashSet<Character>set =new LinkedHashSet<Character>(); 
 for(int i=0;i<st.length();i++)
 {
 	set.add(st.charAt(i));

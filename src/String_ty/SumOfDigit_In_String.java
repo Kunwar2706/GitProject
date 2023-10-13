@@ -1,4 +1,4 @@
-package String_ty;
+ package String_ty;
 
 public class SumOfDigit_In_String {
 

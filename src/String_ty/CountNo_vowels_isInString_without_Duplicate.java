@@ -11,7 +11,7 @@ public class CountNo_vowels_isInString_without_Duplicate {
 				for(int i=0;i<s.length();i++)
 				{
 					set.add(s.charAt(i));
-				}
+				}   
 	int count=0;
 	for(Character ch:set)
 	

@@ -14,7 +14,7 @@ class VowelsOrConsonant {
 		}
 		public static void main(String[] args)
 		{
-			vowel_Or_consonant('e');
+			vowel_Or_consonant('i');
 
 		}
 

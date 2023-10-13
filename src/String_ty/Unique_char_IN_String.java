@@ -17,7 +17,7 @@ public class Unique_char_IN_String {
 //	System.out.println(cha);
 //}
 		
-		
+		 
 		
 		//2 by sir
 		
@@ -29,7 +29,7 @@ public class Unique_char_IN_String {
 			set.add(st.charAt(i));
 		}
 		
-		for(Character ch:set)
+		for(Character ch:set)//t
 		{
 			System.out.print(ch+" ");
 		}

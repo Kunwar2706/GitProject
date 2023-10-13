@@ -6,17 +6,17 @@ public class Count_duplicateChar_RepeatIng_in_String {
 
 	public static void main(String[] args) {
 		String s="TestYantra";
-		String s1=s.toLowerCase();
+		String s1=s.toLowerCase();//testyantra
 		LinkedHashSet<Character>set=new LinkedHashSet<>();
 		for(int i=0;i<s1.length();i++)
 		{
 			set.add(s1.charAt(i));
 
 		}
-		for(Character cha:set)
+		for(Character cha:set)//tesyanr
 		{ 
 			int count=0;
-			for(int i=0;i<s.length();i++)
+			for(int i=0;i<s1.length();i++)
 			{
 				if(cha==s1.charAt(i))
 				{

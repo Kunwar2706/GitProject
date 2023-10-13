@@ -16,6 +16,7 @@ public class Reverse_each_charofword {
 			System.out.print(" ");
 		}
 		
+		
 
 	}
 }
